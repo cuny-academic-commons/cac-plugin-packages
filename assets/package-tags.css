@@ -1,0 +1,10 @@
+.package-tag {
+	border-radius: 6px;
+	display: inline-block;
+	margin: 0 2px;
+	padding: 1px 6px;
+}
+
+.package-tag a {
+	color: white;
+}

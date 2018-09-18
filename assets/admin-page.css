@@ -1,0 +1,30 @@
+.cac-plugin-package {
+	margin-left: 0;
+	width: 100%;
+}
+
+.cac-plugin-package span.plugin-icon {
+	color: white;
+	font-size: 96px;
+	line-height: 1.35;
+}
+
+.cac-plugin-package .plugin-icon {
+	border-radius: 12px;
+}
+
+.cac-plugin-package .plugin-card-bottom a {
+	text-decoration: underline;
+}
+
+.plugin-card .plugins-inactive:before {
+	color: darkslateblue;
+	content:"\f348";
+	margin-top: -1px;
+	margin-right: 3px;
+}
+
+.column-description ul {
+	list-style-type: disc;
+	margin-left: 1.35em;
+}
