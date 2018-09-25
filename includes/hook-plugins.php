@@ -5,8 +5,8 @@
  * @package plugin-packages
  */
 
-// Displays our package tags in the plugin list table.
-add_filter( 'plugin_row_meta', function( $plugin_meta, $plugin_file, $plugin_data, $status ) {
+// Set up package tags for display.
+add_action( 'after_plugin_row', function( $plugin_file, $plugin_data ) {
 	if ( ! empty( $plugin_data['slug'] ) ) {
 		$slug = $plugin_data['slug'];
 	} else {
@@ -14,9 +14,35 @@ add_filter( 'plugin_row_meta', function( $plugin_meta, $plugin_file, $plugin_dat
 		$slug  = $parts[0];
 	}
 
+	$tags = array();
 	foreach ( cac_get_plugin_packages_for_plugin( $slug ) as $package_id ) {
-		$plugin_meta[] = cac_get_plugin_package_tag( $package_id );
+		if ( empty( $tags[$slug] ) ) {
+			$tags[$slug] = array();
+		}
+		$tags[$slug][] = cac_get_plugin_package_tag( $package_id );
 	}
 
-	return $plugin_meta;
-}, 10, 4 );
+	if ( ! empty( $tags ) ) {
+		foreach ( $tags as $pslug => $tag ) {
+			echo sprintf( '<div id="%1$s" class="plugin-packages-row" style="display:none">%2$s</div>', $pslug, sprintf( __( 'Plugin packages: %s', 'cac-plugin-packages' ), implode( ' ', $tag ) ) );
+		}
+	}
+}, 10, 2 );
+
+// Append our package tags row inside the plugin description's container.
+add_action( 'pre_current_active_plugins', function() {
+	$retval = <<<VAL
+
+<script>
+jQuery( function($) {
+	$('.plugin-packages-row').each(function(i) {
+		var slug = $(this).attr('id');
+		$('tr[data-slug="' + slug + '"] .column-description').append( $(this).show() );
+	});
+} )
+</script>
+
+VAL;
+
+	echo $retval;
+} );
