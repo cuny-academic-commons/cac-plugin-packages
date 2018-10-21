@@ -274,6 +274,11 @@ function cac_get_plugin_packages() {
 					'description'  => 'Allows a single post from a category to "stick" to the top of the category archive.',
 					'download_url' => 'http://downloads.wordpress.org/plugin/category-sticky-post.2.10.2.zip',
 				),
+				'hypothesis' => array(
+					'name'         => 'Hypothesis',
+					'description'  => 'Create an annotation sidebar on posts, pages, and PDFs (on public sites).',
+					'download_url' => 'http://downloads.wordpress.org/plugin/hypothesis.0.5.0.zip',
+				),
 				'google-docs-shortcode' => array(
 					'name'         => 'Google Docs Shortcode',
 					'description'  => 'Allows administrators to embed and display Google Drive contents such as docs, sheets, and slides directly on their Commons site.',
@@ -288,6 +293,11 @@ function cac_get_plugin_packages() {
 					'name'         => 'Reckoning',
 					'description'  => 'Organizes, counts, and displays student posts and comments for assessment.',
 					'download_url' => 'http://downloads.wordpress.org/plugin/reckoning.zip',
+				),
+				'wp-accessibility' => array(
+					'name'         => 'WP Accessibility',
+					'description'  => 'Helps improve accessibility in your WordPress site.',
+					'download_url' => 'http://downloads.wordpress.org/plugin/wp-accessibility.1.6.4.zip',
 				),
 			)
 		),
@@ -345,10 +355,20 @@ function cac_get_plugin_packages() {
 					'description'  => 'Allows users to display maps created using "My Maps" in Google Maps.',
 					'download_url' => 'http://downloads.wordpress.org/plugin/embed-google-map.3.2.zip',
 				),
+				'google-docs-shortcode' => array(
+					'name'         => 'Google Docs Shortcode',
+					'description'  => 'Allows administrators to embed and display Google Drive contents such as docs, sheets, and slides directly on their Commons site.',
+					'download_url' => 'http://downloads.wordpress.org/plugin/google-docs-shortcode.0.4.zip',
+				),
 				'hypothesis' => array(
 					'name'         => 'Hypothesis',
 					'description'  => 'Create an annotation sidebar on posts, pages, and PDFs (on public sites).',
 					'download_url' => 'http://downloads.wordpress.org/plugin/hypothesis.0.5.0.zip',
+				),
+				'knight-lab-timelinejs' => array(
+					'name'         => 'Knight Lab Timeline',
+					'description'  => 'Allows users to embed <a href="https://timeline.knightlab.com/" target="_blank">Timeline JS</a> timelines into a post on the Commons (must have free but separate TimelineJS/Google account).',
+					'download_url' => 'http://downloads.wordpress.org/plugin/knight-lab-timelinejs.3.6.0.0.zip',
 				),
 			)
 		)
