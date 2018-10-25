@@ -47,6 +47,9 @@ function cac_plugin_packages_dashboard_widget() {
 	}
 
 	if ( $inactive_flag ) {
-		printf( '<p>%s</p>', esc_html__( 'Some plugins are inactive. Please click on a package tag above to review these plugins.', 'cac-plugin-packages' ) );
+		printf( '<p>%1$s %2$s</p>',
+			'<span class="dashicons dashicons-info"></span>',
+			esc_html__( 'Some plugins are inactive. Please click on a package tag above to review these plugins.', 'cac-plugin-packages' )
+		);
 	}
 }
