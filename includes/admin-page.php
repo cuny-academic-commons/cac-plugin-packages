@@ -9,8 +9,6 @@
 <div class="wrap">
 	<h1><?php _e( 'Plugin Packages', 'cac-plugin-packages' ); ?></h1>
 
-	<p>Lorem ipsum dolor sit amet, ornatus deterruisset cu per, te qui eros facilis.</p>
-
 	<form method="post" action="<?php echo self_admin_url( 'plugins.php?page=cac-plugin-packages' ); ?>">
 		<?php wp_nonce_field( 'cac_plugin_package_select' ); ?>
 
