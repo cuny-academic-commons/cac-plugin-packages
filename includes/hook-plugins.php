@@ -37,11 +37,7 @@ add_action( 'pre_current_active_plugins', function() {
 jQuery( function($) {
 	$('.plugin-packages-row').each(function(i) {
 		var slug = $(this).attr('id');
-		// Workaround for 'Authors Widget' plugin not using the 'authors' slug...
-		if ( 'authors' === slug ) {
-			slug = 'authors-widget';
-		}
-		$('tr[data-slug="' + slug + '"] .column-description').append( $(this).show() );
+		$('tr[data-plugin^="' + slug + '/"] .column-description').append( $(this).show() );
 	});
 } )
 </script>
