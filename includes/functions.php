@@ -299,6 +299,11 @@ function cac_get_plugin_packages() {
 					'description'  => 'Helps improve accessibility in your WordPress site.',
 					'download_url' => 'http://downloads.wordpress.org/plugin/wp-accessibility.1.6.4.zip',
 				),
+				'wp-grade-comments' => array(
+					'name'         => 'WP Grade Comments',
+					'description'  => "Allows instructors to provide private feedback on posts in the form of comments that are visible only to instructor and the student author. Private comments also offer the option to include numerical feedback on students' posts.",
+					'download_url' => 'http://downloads.wordpress.org/plugin/wp-grade-comments.1.3.1.zip',
+				),
 			)
 		),
 		'multimedia' => array(
