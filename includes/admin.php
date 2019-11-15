@@ -17,7 +17,7 @@ $page = add_plugins_page(
 // Load required functions only on certain pages.
 foreach ( array( $page, 'plugins.php', 'index.php' ) as $p ) {
 	add_action( "load-{$p}", function() {
-		require __DIR__ . '/functions.php';
+		require_once __DIR__ . '/functions.php';
 	} );
 }
 
@@ -59,6 +59,43 @@ add_action( 'admin_enqueue_scripts', function( $hook ) use ( $page ) {
 	wp_enqueue_script( 'thickbox' );
 	wp_enqueue_style( 'thickbox' );
 	wp_enqueue_style( 'cac-plugin-packages-page', CAC_PLUGIN_PACKAGES_URL . 'assets/admin-page.css', array(), '20180806' );
+} );
+
+// Custom plugin modal. Piggybacks off install_plugin_information().
+add_action( 'admin_init', function() {
+	// Bail if our GET parameters are missing.
+	if ( empty( $_GET['cac-pp'] ) || empty( $_GET['plugin'] ) || empty( $_GET['package'] ) || ! is_user_logged_in() ) {
+		return;
+	}
+
+	// Require our functions.
+	require_once __DIR__ . '/functions.php';
+
+	/*
+	 * Check to see if the requested plugin is a part of the package.
+	 *
+	 * This prevents snooping on plugins outside of our package spec.
+	 */
+	$package  = $_GET['package'];
+	$plugin   = $_GET['plugin'];
+	$packages = cac_get_plugin_packages();
+	if ( ! isset( $packages[ $package ] ) || ! isset( $packages[ $package ]['plugins'][ $plugin ] ) ) {
+		wp_die( 'Invalid plugin' );
+	}
+
+	// Enqueue our CSS.
+	add_action( 'admin_enqueue_scripts', function() {
+		wp_enqueue_style( 'cac-plugin-packages-modal', CAC_PLUGIN_PACKAGES_URL . 'assets/plugin-modal.css', array(), '20180806' );
+	} );
+
+	// iframe_header() requires these globals set.
+	$GLOBALS['tab'] = $GLOBALS['body_id'] = 'plugin-information';
+
+	// Require our needed function.
+	require_once ABSPATH . 'wp-admin/includes/plugin-install.php';
+
+	install_plugin_information( $plugin );
+	die();
 } );
 
 /**

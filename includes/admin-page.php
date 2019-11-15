@@ -58,7 +58,7 @@
 								$doc_url = $r['documentation_url'];
 							// Use wp.org plugin data.
 							} else {
-								$doc_url = network_admin_url( 'plugin-install.php?tab=plugin-information&cac-pp=1&plugin=' . $slug );
+								$doc_url = admin_url( 'index.php?cac-pp=1&package=' . $package . '&plugin=' . $slug );
 							}
 
 							// Show documentation in a thickbox modal.

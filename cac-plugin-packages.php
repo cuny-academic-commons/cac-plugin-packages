@@ -31,10 +31,3 @@ add_action( 'admin_menu', function() {
 		require __DIR__ . '/includes/admin.php';
 	}
 } );
-
-// Custom CSS for plugin modal. This has to be hooked early.
-add_action( 'admin_enqueue_scripts', function( $hook ) {
-	if ( $hook === 'plugin-install.php' && ! empty( $_GET['cac-pp'] ) ) {
-		wp_enqueue_style( 'cac-plugin-packages-modal', CAC_PLUGIN_PACKAGES_URL . 'assets/plugin-modal.css', array(), '20180806' );
-	}
-} );
