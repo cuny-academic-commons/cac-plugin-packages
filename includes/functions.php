@@ -274,6 +274,11 @@ function cac_get_plugin_packages() {
 					'description'  => 'Allows a single post from a category to "stick" to the top of the category archive.',
 					'download_url' => 'http://downloads.wordpress.org/plugin/category-sticky-post.2.10.2.zip',
 				),
+				'editoria11y-accessibility-checker' => array(
+					'name'         => 'Editoria11y',
+					'description'  => 'Editoria11y ("editorial accessibility ally") is a user-friendly tool providing instant feedback on the accessibility and readability of your pages and posts.',
+					'download_url' => 'http://downloads.wordpress.org/plugin/editoria11y-accessibility-checker.1.0.13.zip',
+				),
 				'hypothesis' => array(
 					'name'         => 'Hypothesis',
 					'description'  => 'Create an annotation sidebar on posts, pages, and PDFs (on public sites).',
@@ -354,6 +359,11 @@ function cac_get_plugin_packages() {
 					'name'         => 'FeedWordPress',
 					'description'  => 'Allows admins to collect posts from other sites on the Commons into a singular "motherblog" roll.',
 					'download_url' => 'http://downloads.wordpress.org/plugin/feedwordpress.2017.1020.zip',
+				),
+				'editoria11y-accessibility-checker' => array(
+					'name'         => 'Editoria11y',
+					'description'  => 'Editoria11y ("editorial accessibility ally") is a user-friendly tool providing instant feedback on the accessibility and readability of your pages and posts.',
+					'download_url' => 'http://downloads.wordpress.org/plugin/editoria11y-accessibility-checker.1.0.13.zip',
 				),
 				'embed-google-map' => array(
 					'name'         => 'Embed Google Map',
