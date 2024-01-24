@@ -279,15 +279,15 @@ function cac_get_plugin_packages() {
 					'description'  => 'Editoria11y ("editorial accessibility ally") is a user-friendly tool providing instant feedback on the accessibility and readability of your pages and posts.',
 					'download_url' => 'http://downloads.wordpress.org/plugin/editoria11y-accessibility-checker.1.0.13.zip',
 				),
-				'hypothesis' => array(
-					'name'         => 'Hypothesis',
-					'description'  => 'Create an annotation sidebar on posts, pages, and PDFs (on public sites).',
-					'download_url' => 'http://downloads.wordpress.org/plugin/hypothesis.0.5.0.zip',
-				),
 				'google-docs-shortcode' => array(
 					'name'         => 'Google Docs Shortcode',
 					'description'  => 'Allows administrators to embed and display Google Drive contents such as docs, sheets, and slides directly on their Commons site.',
 					'download_url' => 'http://downloads.wordpress.org/plugin/google-docs-shortcode.0.4.zip',
+				),
+				'hypothesis' => array(
+					'name'         => 'Hypothesis',
+					'description'  => 'Create an annotation sidebar on posts, pages, and PDFs (on public sites).',
+					'download_url' => 'http://downloads.wordpress.org/plugin/hypothesis.0.5.0.zip',
 				),
 				'imsanity' => array(
 					'name'         => 'Imsanity',
@@ -317,11 +317,6 @@ function cac_get_plugin_packages() {
 			'icon_url'        => 'dashicons-video-alt3',
 			'icon_background' => 'red',
 			'plugins' => array(
-				'nextgen-gallery' => array(
-					'name'         => 'NextGEN Gallery',
-					'description'  => 'Allows users to collect and display images in a gallery (thumbnail, slideshow, list).',
-					'download_url' => 'http://downloads.wordpress.org/plugin/nextgen-gallery.3.0.6.zip',
-				),
 				'embed-google-map' => array(
 					'name'         => 'Embed Google Map',
 					'description'  => 'Allows users to display maps created using "My Maps" in Google Maps.',
@@ -336,6 +331,11 @@ function cac_get_plugin_packages() {
 					'name'         => 'Knight Lab Timeline',
 					'description'  => 'Allows users to embed <a href="https://timeline.knightlab.com/" target="_blank">Timeline JS</a> timelines into a post on the Commons (must have free but separate TimelineJS/Google account).',
 					'download_url' => 'http://downloads.wordpress.org/plugin/knight-lab-timelinejs.3.6.0.0.zip',
+				),
+				'nextgen-gallery' => array(
+					'name'         => 'NextGEN Gallery',
+					'description'  => 'Allows users to collect and display images in a gallery (thumbnail, slideshow, list).',
+					'download_url' => 'http://downloads.wordpress.org/plugin/nextgen-gallery.3.0.6.zip',
 				),
 				'youtube-embed-plus' => array(
 					'name'         => 'YouTube Embed Plus',
@@ -355,11 +355,6 @@ function cac_get_plugin_packages() {
 					'description'  => 'Allow users to "export" (by tag or category) and "publish" posts in a book-like format as a PDFs, ePub and other file formats.',
 					'download_url' => 'http://downloads.wordpress.org/plugin/nextgen-gallery.3.0.6.zip',
 				),
-				'feedwordpress' => array(
-					'name'         => 'FeedWordPress',
-					'description'  => 'Allows admins to collect posts from other sites on the Commons into a singular "motherblog" roll.',
-					'download_url' => 'http://downloads.wordpress.org/plugin/feedwordpress.2017.1020.zip',
-				),
 				'editoria11y-accessibility-checker' => array(
 					'name'         => 'Editoria11y',
 					'description'  => 'Editoria11y ("editorial accessibility ally") is a user-friendly tool providing instant feedback on the accessibility and readability of your pages and posts.',
@@ -369,6 +364,11 @@ function cac_get_plugin_packages() {
 					'name'         => 'Embed Google Map',
 					'description'  => 'Allows users to display maps created using "My Maps" in Google Maps.',
 					'download_url' => 'http://downloads.wordpress.org/plugin/embed-google-map.3.2.zip',
+				),
+				'feedwordpress' => array(
+					'name'         => 'FeedWordPress',
+					'description'  => 'Allows admins to collect posts from other sites on the Commons into a singular "motherblog" roll.',
+					'download_url' => 'http://downloads.wordpress.org/plugin/feedwordpress.2017.1020.zip',
 				),
 				'google-docs-shortcode' => array(
 					'name'         => 'Google Docs Shortcode',
