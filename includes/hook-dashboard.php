@@ -19,10 +19,10 @@ function cac_add_plugin_packages_dashboard_widget() {
 	}
 
 	wp_add_dashboard_widget(
-                 'cac_plugin_packages',
-                 __( 'Plugin Packages', 'cac-plugin-packages' ),
-                 'cac_plugin_packages_dashboard_widget'
-        );
+		'cac_plugin_packages',
+		__( 'Plugin Packages', 'cac-plugin-packages' ),
+		'cac_plugin_packages_dashboard_widget'
+	);
 }
 add_action( 'wp_dashboard_setup', 'cac_add_plugin_packages_dashboard_widget' );
 

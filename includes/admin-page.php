@@ -39,7 +39,7 @@
 							<li><?php printf( '<button class="button" type="submit" name="package" value="%1$s" %2$s>%3$s</button>',
 								esc_attr( $package ),
 								cac_is_plugin_package_active( $package ) ? ' disabled="disabled"' : '',
-																cac_is_plugin_package_active( $package ) ? esc_html__( 'Active', 'cac-plugin-packages' ) : esc_html__( 'Select', 'cac-plugin-packages' ) ); ?></li>
+								cac_is_plugin_package_active( $package ) ? esc_html__( 'Active', 'cac-plugin-packages' ) : esc_html__( 'Select', 'cac-plugin-packages' ) ); ?></li>
 
 							<!--<li><a href="" class="thickbox open-plugin-details-modal" aria-label="<?php printf( esc_attr__( 'More information about %s', 'cac-plugin-packages' ), $args['name'] ); ?>" data-title="<?php echo esc_attr( $args['name'] ); ?>"><?php esc_html_e( 'More Details', 'cac-plugin-packages' ); ?></a></li>-->
 						</ul>
