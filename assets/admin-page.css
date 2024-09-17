@@ -13,6 +13,10 @@
 	border-radius: 12px;
 }
 
+.cac-plugin-package h4 {
+	margin-bottom: .5em;
+}
+
 .cac-plugin-package .plugin-card-bottom a {
 	text-decoration: underline;
 }
@@ -27,4 +31,30 @@
 .column-description ul {
 	list-style-type: disc;
 	margin-left: 1.35em;
+}
+
+@media screen and (max-width: 480px) {
+	.cac-plugin-package span.plugin-icon {
+		font-size: 48px;
+		height: 64px;
+		width: 64px;
+	}
+
+	.cac-plugin-package.plugin-card .name,
+	.cac-plugin-package.plugin-card .desc > p,
+	.cac-plugin-package.plugin-card .action-links {
+		margin-left: 86px;
+	}
+
+	.cac-plugin-package.plugin-card .column-updated,
+	.cac-plugin-package.plugin-card .column-compatibility {
+		text-align: left;
+		width: 100%;
+	}
+}
+
+@media screen and (max-width: 400px) {
+	.cac-plugin-package.plugin-card .column-description {
+		margin: .5em 0 0 0;
+	}
 }

@@ -45,7 +45,7 @@
 						</ul>
 					</div>
 
-					<div class="desc column-description">
+					<div class="name column-description">
 						<?php echo wp_kses_post( $args['description'] ); ?>
 
 						<h4><?php esc_attr_e( 'Included Plugins', 'cac-plugin-packages' ); ?></h4>
