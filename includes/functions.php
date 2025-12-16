@@ -327,15 +327,15 @@ function cac_get_plugin_packages() {
 					'description'  => 'Limits the file size for uploaded photos, preserving space on your site.',
 					'download_url' => 'http://downloads.wordpress.org/plugin/imsanity.2.4.0.zip',
 				),
-				'knight-lab-timelinejs' => array(
-					'name'         => 'Knight Lab Timeline',
-					'description'  => 'Allows users to embed <a href="https://timeline.knightlab.com/" target="_blank">Timeline JS</a> timelines into a post on the Commons (must have free but separate TimelineJS/Google account).',
-					'download_url' => 'http://downloads.wordpress.org/plugin/knight-lab-timelinejs.3.6.0.0.zip',
-				),
 				'nextgen-gallery' => array(
 					'name'         => 'NextGEN Gallery',
 					'description'  => 'Allows users to collect and display images in a gallery (thumbnail, slideshow, list).',
 					'download_url' => 'http://downloads.wordpress.org/plugin/nextgen-gallery.3.0.6.zip',
+				),
+				'post-timeline' => array(
+					'name'         => 'Post Timeline',
+					'description'  => 'Allows users to create timelines to add to your site.',
+					'download_url' => 'https://downloads.wordpress.org/plugin/post-timeline.zip',
 				),
 				'youtube-embed-plus' => array(
 					'name'         => 'YouTube Embed Plus',
@@ -380,10 +380,10 @@ function cac_get_plugin_packages() {
 					'description'  => 'Create an annotation sidebar on posts, pages, and PDFs (on public sites).',
 					'download_url' => 'http://downloads.wordpress.org/plugin/hypothesis.0.5.0.zip',
 				),
-				'knight-lab-timelinejs' => array(
-					'name'         => 'Knight Lab Timeline',
-					'description'  => 'Allows users to embed <a href="https://timeline.knightlab.com/" target="_blank">Timeline JS</a> timelines into a post on the Commons (must have free but separate TimelineJS/Google account).',
-					'download_url' => 'http://downloads.wordpress.org/plugin/knight-lab-timelinejs.3.6.0.0.zip',
+				'post-timeline' => array(
+					'name'         => 'Post Timeline',
+					'description'  => 'Allows users to create timelines to add to your site.',
+					'download_url' => 'https://downloads.wordpress.org/plugin/post-timeline.zip',
 				),
 			)
 		)
