@@ -267,47 +267,47 @@ function cac_get_plugin_packages() {
 				'authors' => array(
 					'name'         => 'Authors Widget',
 					'description'  => 'Creates a widget to list users designated as "authors" (students) in the sidebar of the site; when "author name" is clicked, it links to a list of all posts by that author.',
-					'download_url' => 'http://downloads.wordpress.org/plugin/authors.zip',
+					'download_url' => 'https://downloads.wordpress.org/plugin/authors.zip',
 				),
 				'category-sticky-post' => array(
 					'name'         => 'Category Sticky Post',
 					'description'  => 'Allows a single post from a category to "stick" to the top of the category archive.',
-					'download_url' => 'http://downloads.wordpress.org/plugin/category-sticky-post.2.10.2.zip',
+					'download_url' => 'https://downloads.wordpress.org/plugin/category-sticky-post.zip',
 				),
 				'editoria11y-accessibility-checker' => array(
 					'name'         => 'Editoria11y',
 					'description'  => 'Editoria11y ("editorial accessibility ally") is a user-friendly tool providing instant feedback on the accessibility and readability of your pages and posts.',
-					'download_url' => 'http://downloads.wordpress.org/plugin/editoria11y-accessibility-checker.1.0.13.zip',
+					'download_url' => 'https://downloads.wordpress.org/plugin/editoria11y-accessibility-checker.zip',
 				),
 				'google-docs-shortcode' => array(
 					'name'         => 'Google Docs Shortcode',
 					'description'  => 'Allows administrators to embed and display Google Drive contents such as docs, sheets, and slides directly on their Commons site.',
-					'download_url' => 'http://downloads.wordpress.org/plugin/google-docs-shortcode.0.4.zip',
+					'download_url' => 'https://downloads.wordpress.org/plugin/google-docs-shortcode.zip',
 				),
 				'hypothesis' => array(
 					'name'         => 'Hypothesis',
 					'description'  => 'Create an annotation sidebar on posts, pages, and PDFs (on public sites).',
-					'download_url' => 'http://downloads.wordpress.org/plugin/hypothesis.0.5.0.zip',
+					'download_url' => 'https://downloads.wordpress.org/plugin/hypothesis.zip',
 				),
 				'imsanity' => array(
 					'name'         => 'Imsanity',
 					'description'  => 'Limits the file size for uploaded photos, preserving space on your site.',
-					'download_url' => 'http://downloads.wordpress.org/plugin/imsanity.2.4.0.zip',
+					'download_url' => 'https://downloads.wordpress.org/plugin/imsanity.zip',
 				),
 				'reckoning' => array(
 					'name'         => 'Reckoning',
 					'description'  => 'Organizes, counts, and displays student posts and comments for assessment.',
-					'download_url' => 'http://downloads.wordpress.org/plugin/reckoning.zip',
+					'download_url' => 'https://downloads.wordpress.org/plugin/reckoning.zip',
 				),
 				'wp-accessibility' => array(
 					'name'         => 'WP Accessibility',
 					'description'  => 'Helps improve accessibility in your WordPress site.',
-					'download_url' => 'http://downloads.wordpress.org/plugin/wp-accessibility.1.6.4.zip',
+					'download_url' => 'https://downloads.wordpress.org/plugin/wp-accessibility.zip',
 				),
 				'wp-grade-comments' => array(
 					'name'         => 'WP Grade Comments',
 					'description'  => "Allows instructors to provide private feedback on posts in the form of comments that are visible only to instructor and the student author. Private comments also offer the option to include numerical feedback on students' posts.",
-					'download_url' => 'http://downloads.wordpress.org/plugin/wp-grade-comments.1.3.1.zip',
+					'download_url' => 'https://downloads.wordpress.org/plugin/wp-grade-comments.zip',
 				),
 			)
 		),
@@ -320,17 +320,17 @@ function cac_get_plugin_packages() {
 				'embed-google-map' => array(
 					'name'         => 'Embed Google Map',
 					'description'  => 'Allows users to display maps created using "My Maps" in Google Maps.',
-					'download_url' => 'http://downloads.wordpress.org/plugin/embed-google-map.3.2.zip',
+					'download_url' => 'https://downloads.wordpress.org/plugin/embed-google-map.zip',
 				),
 				'imsanity' => array(
 					'name'         => 'Imsanity',
 					'description'  => 'Limits the file size for uploaded photos, preserving space on your site.',
-					'download_url' => 'http://downloads.wordpress.org/plugin/imsanity.2.4.0.zip',
+					'download_url' => 'https://downloads.wordpress.org/plugin/imsanity.zip',
 				),
 				'nextgen-gallery' => array(
 					'name'         => 'NextGEN Gallery',
 					'description'  => 'Allows users to collect and display images in a gallery (thumbnail, slideshow, list).',
-					'download_url' => 'http://downloads.wordpress.org/plugin/nextgen-gallery.3.0.6.zip',
+					'download_url' => 'https://downloads.wordpress.org/plugin/nextgen-gallery.zip',
 				),
 				'post-timeline' => array(
 					'name'         => 'Post Timeline',
@@ -340,7 +340,7 @@ function cac_get_plugin_packages() {
 				'youtube-embed-plus' => array(
 					'name'         => 'YouTube Embed Plus',
 					'description'  => 'Enhanced embedding options for YouTube videos.',
-					'download_url' => 'http://downloads.wordpress.org/plugin/youtube-embed-plus.12.0.1.zip',
+					'download_url' => 'https://downloads.wordpress.org/plugin/youtube-embed-plus.zip',
 				),
 			)
 		),
@@ -353,32 +353,32 @@ function cac_get_plugin_packages() {
 				'anthologize' => array(
 					'name'         => 'Anthologize',
 					'description'  => 'Allow users to "export" (by tag or category) and "publish" posts in a book-like format as a PDFs, ePub and other file formats.',
-					'download_url' => 'http://downloads.wordpress.org/plugin/nextgen-gallery.3.0.6.zip',
+					'download_url' => 'https://downloads.wordpress.org/plugin/nextgen-gallery.zip',
 				),
 				'editoria11y-accessibility-checker' => array(
 					'name'         => 'Editoria11y',
 					'description'  => 'Editoria11y ("editorial accessibility ally") is a user-friendly tool providing instant feedback on the accessibility and readability of your pages and posts.',
-					'download_url' => 'http://downloads.wordpress.org/plugin/editoria11y-accessibility-checker.1.0.13.zip',
+					'download_url' => 'https://downloads.wordpress.org/plugin/editoria11y-accessibility-checker.zip',
 				),
 				'embed-google-map' => array(
 					'name'         => 'Embed Google Map',
 					'description'  => 'Allows users to display maps created using "My Maps" in Google Maps.',
-					'download_url' => 'http://downloads.wordpress.org/plugin/embed-google-map.3.2.zip',
+					'download_url' => 'https://downloads.wordpress.org/plugin/embed-google-map.zip',
 				),
 				'feedwordpress' => array(
 					'name'         => 'FeedWordPress',
 					'description'  => 'Allows admins to collect posts from other sites on the Commons into a singular "motherblog" roll.',
-					'download_url' => 'http://downloads.wordpress.org/plugin/feedwordpress.2017.1020.zip',
+					'download_url' => 'https://downloads.wordpress.org/plugin/feedwordpress.zip',
 				),
 				'google-docs-shortcode' => array(
 					'name'         => 'Google Docs Shortcode',
 					'description'  => 'Allows administrators to embed and display Google Drive contents such as docs, sheets, and slides directly on their Commons site.',
-					'download_url' => 'http://downloads.wordpress.org/plugin/google-docs-shortcode.0.4.zip',
+					'download_url' => 'https://downloads.wordpress.org/plugin/google-docs-shortcode.zip',
 				),
 				'hypothesis' => array(
 					'name'         => 'Hypothesis',
 					'description'  => 'Create an annotation sidebar on posts, pages, and PDFs (on public sites).',
-					'download_url' => 'http://downloads.wordpress.org/plugin/hypothesis.0.5.0.zip',
+					'download_url' => 'https://downloads.wordpress.org/plugin/hypothesis.zip',
 				),
 				'post-timeline' => array(
 					'name'         => 'Post Timeline',
