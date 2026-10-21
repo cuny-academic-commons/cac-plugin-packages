@@ -274,11 +274,6 @@ function cac_get_plugin_packages() {
 					'description'  => 'Allows a single post from a category to "stick" to the top of the category archive.',
 					'download_url' => 'https://downloads.wordpress.org/plugin/category-sticky-post.zip',
 				),
-				'editoria11y-accessibility-checker' => array(
-					'name'         => 'Editoria11y',
-					'description'  => 'Editoria11y ("editorial accessibility ally") is a user-friendly tool providing instant feedback on the accessibility and readability of your pages and posts.',
-					'download_url' => 'https://downloads.wordpress.org/plugin/editoria11y-accessibility-checker.zip',
-				),
 				'google-docs-shortcode' => array(
 					'name'         => 'Google Docs Shortcode',
 					'description'  => 'Allows administrators to embed and display Google Drive contents such as docs, sheets, and slides directly on their Commons site.',
@@ -354,11 +349,6 @@ function cac_get_plugin_packages() {
 					'name'         => 'Anthologize',
 					'description'  => 'Allow users to "export" (by tag or category) and "publish" posts in a book-like format as a PDFs, ePub and other file formats.',
 					'download_url' => 'https://downloads.wordpress.org/plugin/nextgen-gallery.zip',
-				),
-				'editoria11y-accessibility-checker' => array(
-					'name'         => 'Editoria11y',
-					'description'  => 'Editoria11y ("editorial accessibility ally") is a user-friendly tool providing instant feedback on the accessibility and readability of your pages and posts.',
-					'download_url' => 'https://downloads.wordpress.org/plugin/editoria11y-accessibility-checker.zip',
 				),
 				'embed-google-map' => array(
 					'name'         => 'Embed Google Map',
